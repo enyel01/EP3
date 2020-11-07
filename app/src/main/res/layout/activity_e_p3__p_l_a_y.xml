@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EP3_PLAY">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/fondo" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="197dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-26dp"
+        android:layout_marginTop="-175dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="162dp"
+        android:layout_height="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/fifa" />
+
+    <Button
+        android:id="@+id/btnAgregar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="62dp"
+        android:text="agregar" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="159dp"
+        android:layout_height="258dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/thelastofus" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="325dp"
+        android:text="agregar" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="162dp"
+        android:layout_height="306dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="114dp"
+        app:srcCompat="@drawable/dow" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="170dp"
+        android:layout_height="471dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="31dp"
+        app:srcCompat="@drawable/fortnite" />
+
+    <Button
+        android:id="@+id/btnAgregar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="118dp"
+        android:text="agregar" />
+
+    <Button
+        android:id="@+id/btnAgregar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="116dp"
+        android:text="agregar" />
+
+    <TextView
+        android:id="@+id/txvTexto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="86dp"
+        android:text="HOME"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="32dp"
+        android:text="regresar" />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="35dp"
+        android:text="lista" />
+
+</RelativeLayout>
