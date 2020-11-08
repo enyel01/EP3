@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
+
 public class EP3_PLAY extends AppCompatActivity {
+    private ArrayList<String> pedidios;
     Button agreg1, agreg2, agreg3, agreg4, atras, lista;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +22,13 @@ public class EP3_PLAY extends AppCompatActivity {
         agreg4=(Button) findViewById(R.id.btnAgregar3);
         atras=(Button) findViewById(R.id.btnRegresar);
         lista=(Button) findViewById(R.id.btnLista);
+        pedidios = new ArrayList<>();
+        agreg1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                pedidios.add("The Last of Us        S/100");
+            }
+        });
         atras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,12 +39,6 @@ public class EP3_PLAY extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(view.getContext(), EP3_Salida.class));
-            }
-        });
-        agreg1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
             }
         });
     }

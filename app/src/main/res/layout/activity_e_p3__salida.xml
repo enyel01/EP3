@@ -15,9 +15,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="-22dp"
+        android:layout_marginStart="-21dp"
         android:layout_marginTop="-2dp"
-        android:layout_marginEnd="-22dp"
+        android:layout_marginEnd="-23dp"
         android:layout_marginBottom="0dp"
         app:srcCompat="@drawable/fondo" />
 
@@ -45,7 +45,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txvSalida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -56,24 +56,24 @@
         android:textColor="#fff" />
 
     <Button
-        android:id="@+id/btnTarjeta"
+        android:id="@+id/btnComprar"
         android:layout_width="106dp"
         android:layout_height="62dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginBottom="198dp"
-        android:text="tarjeta" />
+        android:layout_marginStart="79dp"
+        android:layout_marginBottom="65dp"
+        android:text="comprar" />
 
     <Button
-        android:id="@+id/btnEfectivo"
-        android:layout_width="103dp"
-        android:layout_height="63dp"
+        android:id="@+id/btnRegresar"
+        android:layout_width="120dp"
+        android:layout_height="66dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="81dp"
-        android:layout_marginBottom="199dp"
-        android:text="efectivo" />
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="65dp"
+        android:text="seguir comprando" />
 
     <TextView
         android:id="@+id/txvMonto"
@@ -81,8 +81,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="154dp"
-        android:layout_marginBottom="155dp"
-        android:text="TextView" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="154dp"
+        android:text="monto"
+        android:textColor="#fff" />
 
 </RelativeLayout>
