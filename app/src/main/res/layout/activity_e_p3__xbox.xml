@@ -39,16 +39,6 @@
         android:layout_marginEnd="30dp"
         app:srcCompat="@drawable/dow" />
 
-    <Button
-        android:id="@+id/btnAgregar3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="325dp"
-        android:layout_marginEnd="62dp"
-        android:text="agregar" />
-
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="159dp"
@@ -60,7 +50,7 @@
         app:srcCompat="@drawable/minecraft" />
 
     <Button
-        android:id="@+id/btnAgregar5"
+        android:id="@+id/btnAgregar4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -124,7 +114,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btnRegresar2"
+        android:id="@+id/btnRegresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -134,7 +124,7 @@
         android:text="regresar" />
 
     <Button
-        android:id="@+id/btnLista2"
+        android:id="@+id/btnLista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -142,4 +132,14 @@
         android:layout_marginEnd="113dp"
         android:layout_marginBottom="35dp"
         android:text="lista" />
+
+    <Button
+        android:id="@+id/btnAgregar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="321dp"
+        android:layout_marginEnd="60dp"
+        android:text="agregar" />
 </RelativeLayout>

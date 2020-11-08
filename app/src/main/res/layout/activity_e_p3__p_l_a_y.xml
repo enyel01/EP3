@@ -101,7 +101,7 @@
         android:text="agregar" />
 
     <Button
-        android:id="@+id/btnAgregar4"
+        android:id="@+id/btnAgregar3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
